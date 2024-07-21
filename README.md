@@ -33,7 +33,7 @@ This is a React application that allows users to upload and view videos. The vid
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/videofeed.git
+    git clone git@github.com:prechak/VideoFeed.git
     ```
 
 2. Navigate to the project directory:
