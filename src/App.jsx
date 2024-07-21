@@ -7,13 +7,14 @@ import { createClient } from "@supabase/supabase-js";
 import { v4 as uuidv4 } from "uuid";
 import "./App.css";
 
-const supabaseUrl = "https://your-supabase-url.supabase.co";
-const supabaseKey = "your-supabase-key";
+const supabaseUrl = "https://wiwoqzedzjnyoygnvcjk.supabase.co";
+const supabaseKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indpd29xemVkempueW95Z252Y2prIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjE1MTA3MzIsImV4cCI6MjAzNzA4NjczMn0.4cTR_-O0HAp7eXOz6xpg-8_JbqVg2wiawMLfLdyI7JM";
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const CDNURL =
-  "https://your-supabase-url.supabase.co/storage/v1/object/public/videos/";
+  "https://wiwoqzedzjnyoygnvcjk.supabase.co/storage/v1/object/public/videos/";
 
 function App() {
   const [videos, setVideos] = useState([]);
